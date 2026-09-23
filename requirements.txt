@@ -1,0 +1,13 @@
+jiwer==3.0.3
+numpy==1.26.2
+pyyaml==6.0.1
+pytest==7.4.3
+pandas==2.1.4
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Optional Provider SDKs (Uncomment when using real APIs)
+# openai==1.3.5
+# google-cloud-speech==2.21.0
+# deepgram-sdk==2.12.0
+# assemblyai==0.18.0

@@ -1,0 +1,33 @@
+providers:
+  sarvam:
+    name: Sarvam AI
+    api_url: https://api.sarvam.ai/speech-to-text
+    env_key: SARVAM_API_KEY
+    supported_modes:
+    - batch
+  google:
+    name: Google Cloud
+    env_key: GOOGLE_APPLICATION_CREDENTIALS
+    supported_modes:
+    - batch
+    - streaming
+  openai:
+    name: OpenAI
+    api_url: https://api.openai.com/v1/audio/transcriptions
+    env_key: OPENAI_API_KEY
+    supported_modes:
+    - batch
+  deepgram:
+    name: Deepgram
+    api_url: https://api.deepgram.com/v1/listen
+    env_key: DEEPGRAM_API_KEY
+    supported_modes:
+    - batch
+    - streaming
+  assemblyai:
+    name: AssemblyAI
+    api_url: https://api.assemblyai.com/v2/transcript
+    env_key: ASSEMBLYAI_API_KEY
+    supported_modes:
+    - batch
+    - streaming

@@ -1,0 +1,35 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Benchmarking Outputs
+benchmarks/runs/*
+!benchmarks/runs/.gitkeep
+benchmarks/results/*
+!benchmarks/results/.gitkeep
+benchmarks/reports/*
+!benchmarks/reports/.gitkeep
+
+# Evidence
+evidence/errors/*
+!evidence/errors/.gitkeep
+evidence/successes/*
+!evidence/successes/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

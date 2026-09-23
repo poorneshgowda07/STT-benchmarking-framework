@@ -1,0 +1,55 @@
+models:
+  sarvam_saaras:
+    provider: sarvam
+    model_id: saaras:v1
+    languages:
+    - hi-IN
+    - en-IN
+    - kn-IN
+    - ta-IN
+    - te-IN
+    - ml-IN
+    streaming: false
+  google_chirp:
+    provider: google
+    model_id: chirp-telephony
+    languages:
+    - hi-IN
+    - en-IN
+    - kn-IN
+    - ta-IN
+    - te-IN
+    - ml-IN
+    streaming: true
+  openai_whisper_large_v3:
+    provider: openai
+    model_id: whisper-1
+    languages:
+    - en
+    - hi
+    - kn
+    - ta
+    - te
+    - ml
+    streaming: false
+  deepgram_nova_3:
+    provider: deepgram
+    model_id: nova-3
+    languages:
+    - en
+    - hi
+    - kn
+    - ta
+    - te
+    - ml
+    streaming: true
+  assemblyai_universal:
+    provider: assemblyai
+    model_id: universal
+    languages:
+    - en
+    - hi
+    - ta
+    - te
+    - ml
+    streaming: true

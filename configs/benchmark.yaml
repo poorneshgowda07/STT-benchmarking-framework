@@ -1,0 +1,16 @@
+benchmark:
+  version: '1.0'
+  methodologies:
+    methodology_1: controlled
+    methodology_2: real_world
+    methodology_3: adversarial
+  latency_optimization:
+    chunk_sizes_ms:
+    - 50
+    - 100
+    - 200
+    - 500
+    concurrency_levels:
+    - 1
+    - 5
+    - 10
