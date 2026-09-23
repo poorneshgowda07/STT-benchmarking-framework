@@ -1,0 +1,19 @@
+{
+  "model_id": "google_chirp",
+  "total_samples_evaluated": 3,
+  "accuracy": {
+    "average_wer": 0.08928571428571429,
+    "average_cer": 0.07196969696969698
+  },
+  "latency": {
+    "p50": 1462.3801708221436,
+    "p75": 1548.2243299484253,
+    "p90": 1599.7308254241943,
+    "p95": 1616.8996572494507,
+    "p99": 1630.6347227096558
+  },
+  "reliability": {
+    "failure_rate": 0.0,
+    "timeout_rate": 0.0
+  }
+}

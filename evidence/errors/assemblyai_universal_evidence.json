@@ -1,0 +1,25 @@
+{
+  "successes": [
+    {
+      "sample_id": "sample_002",
+      "model": "assemblyai_universal",
+      "reference": "Mera account number hai nine eight seven",
+      "prediction": "Mera account number hai nine eight seven",
+      "audio_hash": "dummy_hash",
+      "timestamp": "2026-09-23T10:01:14.546771",
+      "wer": 0.0,
+      "reason": "Perfect transcription"
+    },
+    {
+      "sample_id": "sample_003",
+      "model": "assemblyai_universal",
+      "reference": "EMI of twenty five thousand",
+      "prediction": "EMI of twenty five thousand",
+      "audio_hash": "dummy_hash",
+      "timestamp": "2026-09-23T10:01:16.383080",
+      "wer": 0.0,
+      "reason": "Perfect transcription"
+    }
+  ],
+  "failures": []
+}

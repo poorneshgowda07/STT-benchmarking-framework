@@ -1,0 +1,15 @@
+{
+  "successes": [
+    {
+      "sample_id": "sample_002",
+      "model": "openai_whisper_large_v3",
+      "reference": "Mera account number hai nine eight seven",
+      "prediction": "Mera account number hai nine eight seven",
+      "audio_hash": "dummy_hash",
+      "timestamp": "2026-09-23T10:01:07.486683",
+      "wer": 0.0,
+      "reason": "Perfect transcription"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,35 @@
+{
+  "successes": [
+    {
+      "sample_id": "sample_001",
+      "model": "sarvam_saaras",
+      "reference": "I want to apply for a credit card",
+      "prediction": "I want to apply for a credit card",
+      "audio_hash": "dummy_hash",
+      "timestamp": "2026-09-23T10:01:00.692470",
+      "wer": 0.0,
+      "reason": "Perfect transcription"
+    },
+    {
+      "sample_id": "sample_002",
+      "model": "sarvam_saaras",
+      "reference": "Mera account number hai nine eight seven",
+      "prediction": "Mera account number hai nine eight seven",
+      "audio_hash": "dummy_hash",
+      "timestamp": "2026-09-23T10:01:01.399890",
+      "wer": 0.0,
+      "reason": "Perfect transcription"
+    },
+    {
+      "sample_id": "sample_003",
+      "model": "sarvam_saaras",
+      "reference": "EMI of twenty five thousand",
+      "prediction": "EMI of twenty five thousand",
+      "audio_hash": "dummy_hash",
+      "timestamp": "2026-09-23T10:01:02.211095",
+      "wer": 0.0,
+      "reason": "Perfect transcription"
+    }
+  ],
+  "failures": []
+}

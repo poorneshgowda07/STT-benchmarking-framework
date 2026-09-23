@@ -1,0 +1,19 @@
+{
+  "model_id": "openai_whisper_large_v3",
+  "total_samples_evaluated": 3,
+  "accuracy": {
+    "average_wer": 0.10833333333333334,
+    "average_cer": 0.10437710437710439
+  },
+  "latency": {
+    "p50": 716.9022560119629,
+    "p75": 767.4158811569214,
+    "p90": 797.7240562438965,
+    "p95": 807.8267812728882,
+    "p99": 815.9089612960815
+  },
+  "reliability": {
+    "failure_rate": 0.0,
+    "timeout_rate": 0.0
+  }
+}

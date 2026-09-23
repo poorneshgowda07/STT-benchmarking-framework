@@ -1,0 +1,19 @@
+{
+  "model_id": "sarvam_saaras",
+  "total_samples_evaluated": 3,
+  "accuracy": {
+    "average_wer": 0.0,
+    "average_cer": 0.0
+  },
+  "latency": {
+    "p50": 809.5252513885498,
+    "p75": 836.6979360580444,
+    "p90": 853.0015468597412,
+    "p95": 858.4360837936401,
+    "p99": 862.7837133407593
+  },
+  "reliability": {
+    "failure_rate": 0.0,
+    "timeout_rate": 0.0
+  }
+}

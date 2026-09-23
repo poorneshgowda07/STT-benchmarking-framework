@@ -1,0 +1,15 @@
+{
+  "successes": [
+    {
+      "sample_id": "sample_003",
+      "model": "google_chirp",
+      "reference": "EMI of twenty five thousand",
+      "prediction": "EMI of twenty five thousand",
+      "audio_hash": "dummy_hash",
+      "timestamp": "2026-09-23T10:01:06.077915",
+      "wer": 0.0,
+      "reason": "Perfect transcription"
+    }
+  ],
+  "failures": []
+}

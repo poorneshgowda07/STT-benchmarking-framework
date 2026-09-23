@@ -1,0 +1,19 @@
+{
+  "model_id": "assemblyai_universal",
+  "total_samples_evaluated": 3,
+  "accuracy": {
+    "average_wer": 0.041666666666666664,
+    "average_cer": 0.030303030303030304
+  },
+  "latency": {
+    "p50": 1033.9341163635254,
+    "p75": 1434.2904090881348,
+    "p90": 1674.5041847229004,
+    "p95": 1754.5754432678223,
+    "p99": 1818.6324501037598
+  },
+  "reliability": {
+    "failure_rate": 0.0,
+    "timeout_rate": 0.0
+  }
+}

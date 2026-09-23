@@ -1,0 +1,19 @@
+{
+  "model_id": "deepgram_nova_3",
+  "total_samples_evaluated": 3,
+  "accuracy": {
+    "average_wer": 0.0,
+    "average_cer": 0.0
+  },
+  "latency": {
+    "p50": 1465.3117656707764,
+    "p75": 1612.1522188186646,
+    "p90": 1700.2564907073975,
+    "p95": 1729.624581336975,
+    "p99": 1753.1190538406372
+  },
+  "reliability": {
+    "failure_rate": 0.0,
+    "timeout_rate": 0.0
+  }
+}
